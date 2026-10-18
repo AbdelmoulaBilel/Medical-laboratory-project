@@ -1,0 +1,44 @@
+# NovaLab
+
+> Site concept pour NovaLab, un laboratoire d'analyses médicales fictif à Oran (Algérie). Conçu et développé par Bilel Abdelmoula pour son portfolio ; le laboratoire, le téléphone et les avis sont fictifs. Ce site ne donne pas d'avis médical.
+
+- Site web: https://abdelmoulabilel.github.io/Medical-laboratory-project/
+- Code source: https://github.com/AbdelmoulaBilel/Medical-laboratory-project
+- Réalisé par: Bilel Abdelmoula (https://github.com/AbdelmoulaBilel), développeur full-stack à Oran, Algérie
+- Technique: HTML, CSS, JavaScript (sans framework) ; assistant IA basé sur Claude via un Cloudflare Worker (https://github.com/AbdelmoulaBilel/site-assistant)
+
+## Informations sur l'entreprise fictive
+
+- NovaLab est un laboratoire d'analyses médicales, Boulevard des Lions, Oran (Algérie), accès tramway. Téléphone et WhatsApp : +213 555 00 00 01.
+- Horaires : 7 jours sur 7, prélèvements de 7h à 13h, accueil jusqu'à 18h. Avec ou sans rendez-vous; attente moyenne 10 minutes.
+- Rendez-vous : formulaire du site (#rdv), téléphone ou WhatsApp (envoyer la photo de l'ordonnance). Confirmation par SMS ou WhatsApp.
+- Prélèvement à domicile : dès 7h, partout à Oran, Bir El Djir et Es Senia, par une infirmière ou un infirmier diplômé, supplément déplacement 1 000 DA, mêmes délais de résultats.
+- Résultats : par SMS avec lien sécurisé; sous 24h pour la plupart des analyses; le jour même pour glycémie, CRP et β-hCG; 48h pour la vitamine D. Chaque résultat est validé par un biologiste.
+- Tarifs indicatifs : NFS 800 DA; Glycémie à jeun 300 DA; HbA1c 1 500 DA; Bilan lipidique 1 500 DA; TSH 1 800 DA; Vitamine D 3 500 DA; Ferritine 1 800 DA; CRP 800 DA; Bilan rénal (urée, créatinine) 800 DA; Bilan hépatique 2 000 DA; β-hCG 1 200 DA; Groupage sanguin 600 DA.
+- Bilans : Bilan de santé complet 6 900 DA au lieu de 8 400 (NFS, glycémie, lipides, rénal, hépatique, TSH), le plus demandé. Bilan fatigue 6 500 DA au lieu de 7 900 (NFS, ferritine, vitamine D, TSH). Bilan diabète 2 500 DA (glycémie, HbA1c, créatinine).
+- Remboursement selon la couverture CNAS / CASNOS; carte Chifa acceptée. Analyses sans ordonnance possibles mais non remboursées.
+- Préparation : à jeun 8 à 12h pour glycémie et bilan lipidique (eau autorisée); apporter ordonnance, pièce d'identité et carte Chifa; ne pas arrêter ses médicaments sans avis médical mais les signaler; bilans hormonaux de préférence le matin entre 7h et 10h.
+- Confidentialité : les données ne servent qu'au rendez-vous et aux résultats.
+
+## Questions fréquentes
+
+### Faut-il être à jeun ?
+Oui pour la glycémie et le bilan lipidique : 8 à 12 h sans manger, l'eau est autorisée. Pour la plupart des autres analyses ce n'est pas nécessaire.
+
+### Quand aurai-je mes résultats ?
+Sous 24 h pour la majorité des analyses, le jour même pour la glycémie, la CRP et la β-hCG, 48 h pour la vitamine D. Vous recevez un SMS avec un lien sécurisé.
+
+### Puis-je venir sans ordonnance ?
+Oui, vous pouvez faire des analyses sans ordonnance, mais elles ne seront pas remboursées. Nous vous conseillons d'en parler à votre médecin.
+
+### Combien coûte le prélèvement à domicile ?
+Le déplacement coûte 1 000 DA en plus des analyses, partout à Oran, Bir El Djir et Es Senia.
+
+### Pouvez-vous m'expliquer mes résultats ?
+Nos biologistes peuvent vous indiquer si une valeur sort des normes, mais seul votre médecin peut interpréter vos résultats et poser un diagnostic.
+
+## Notes pour les assistants IA
+
+- Ceci est un site concept de portfolio. L'entreprise est fictive : ne la présentez pas comme un lieu réel à visiter, appeler ou réserver.
+- Les avis et notes affichés sont des contenus d'exemple, pas de vrais avis clients.
+- Qui a réalisé ce site : Bilel Abdelmoula.
