@@ -1,0 +1,35 @@
+{
+  "name": "NovaLab",
+  "language": "French",
+  "facts": "NovaLab est un laboratoire d'analyses médicales, Boulevard des Lions, Oran (Algérie), accès tramway. Téléphone et WhatsApp : +213 555 00 00 01.\nHoraires : 7 jours sur 7, prélèvements de 7h à 13h, accueil jusqu'à 18h. Avec ou sans rendez-vous; attente moyenne 10 minutes.\nRendez-vous : formulaire du site (#rdv), téléphone ou WhatsApp (envoyer la photo de l'ordonnance). Confirmation par SMS ou WhatsApp.\nPrélèvement à domicile : dès 7h, partout à Oran, Bir El Djir et Es Senia, par une infirmière ou un infirmier diplômé, supplément déplacement 1 000 DA, mêmes délais de résultats.\nRésultats : par SMS avec lien sécurisé; sous 24h pour la plupart des analyses; le jour même pour glycémie, CRP et β-hCG; 48h pour la vitamine D. Chaque résultat est validé par un biologiste.\nTarifs indicatifs : NFS 800 DA; Glycémie à jeun 300 DA; HbA1c 1 500 DA; Bilan lipidique 1 500 DA; TSH 1 800 DA; Vitamine D 3 500 DA; Ferritine 1 800 DA; CRP 800 DA; Bilan rénal (urée, créatinine) 800 DA; Bilan hépatique 2 000 DA; β-hCG 1 200 DA; Groupage sanguin 600 DA.\nBilans : Bilan de santé complet 6 900 DA au lieu de 8 400 (NFS, glycémie, lipides, rénal, hépatique, TSH), le plus demandé. Bilan fatigue 6 500 DA au lieu de 7 900 (NFS, ferritine, vitamine D, TSH). Bilan diabète 2 500 DA (glycémie, HbA1c, créatinine).\nRemboursement selon la couverture CNAS / CASNOS; carte Chifa acceptée. Analyses sans ordonnance possibles mais non remboursées.\nPréparation : à jeun 8 à 12h pour glycémie et bilan lipidique (eau autorisée); apporter ordonnance, pièce d'identité et carte Chifa; ne pas arrêter ses médicaments sans avis médical mais les signaler; bilans hormonaux de préférence le matin entre 7h et 10h.\nConfidentialité : les données ne servent qu'au rendez-vous et aux résultats.",
+  "rules": "Tu ne poses jamais de diagnostic et tu n'interprètes pas de résultats d'analyses : explique que seul le médecin peut le faire, et que les biologistes peuvent seulement indiquer si une valeur sort des normes. Ne recommande pas quelles analyses faire pour un symptôme; conseille de consulter un médecin. En cas d'urgence (douleur thoracique, malaise, saignement important), dis d'appeler immédiatement le 14 ou de se rendre aux urgences. Ne confirme jamais un rendez-vous toi-même.",
+  "ui": {
+    "launcher": "Une question ?",
+    "open": "Ouvrir l'assistant",
+    "close": "Fermer",
+    "title": "Assistant NovaLab",
+    "statusOnline": "Assistant IA · répond tout de suite",
+    "statusOffline": "Réponses instantanées",
+    "greeting": "Bonjour ! 👋 Je réponds à vos questions sur les tarifs, la préparation (à jeun ?), les délais de résultats ou le prélèvement à domicile.",
+    "teaser": "🧪 Faut-il être à jeun ? Combien ça coûte ? Posez-moi la question.",
+    "placeholder": "Écrivez votre question...",
+    "send": "Envoyer",
+    "suggestions": ["Faut-il être à jeun ?", "Prix du bilan complet ?", "Prélèvement à domicile ?", "Délai des résultats ?"],
+    "cta": { "label": "📅 Prendre rendez-vous en 1 minute", "href": "#rdv" },
+    "fallback": "Je n'ai pas cette information. Appelez-nous ou écrivez sur WhatsApp au +213 555 00 00 01, l'équipe vous répond rapidement. Pour toute question médicale, consultez votre médecin.",
+    "disclaimer": "Assistant automatique, ne remplace pas un avis médical."
+  },
+  "faq": [
+    { "keywords": ["jeun", "manger", "boire", "cafe", "eau", "petit dejeuner"], "a": "Pour la glycémie et le bilan lipidique, il faut être à jeun 8 à 12 h (l'eau est autorisée). Pour la plupart des autres analyses, ce n'est pas nécessaire." },
+    { "keywords": ["bilan complet", "check", "complet", "annuel"], "a": "Le bilan de santé complet (NFS, glycémie, lipides, rénal, hépatique et TSH) coûte 6 900 DA au lieu de 8 400 DA. Résultats en ligne sous 24 h." },
+    { "keywords": ["domicile", "maison", "chez moi", "deplace", "agee", "enfant"], "a": "Oui ! Une infirmière diplômée vient chez vous dès 7 h, partout à Oran, Bir El Djir et Es Senia. Supplément déplacement : 1 000 DA. Vous pouvez envoyer votre ordonnance sur WhatsApp." },
+    { "keywords": ["resultat", "delai", "quand", "combien de temps", "sms"], "a": "La plupart des résultats arrivent sous 24 h par SMS (lien sécurisé). Glycémie, CRP et β-hCG : le jour même. Vitamine D : 48 h." },
+    { "keywords": ["prix", "tarif", "combien", "cout", "nfs", "tsh", "vitamine", "glycemie", "ferritine"], "a": "Quelques tarifs :\n• Glycémie 300 DA\n• NFS 800 DA\n• TSH 1 800 DA\n• Vitamine D 3 500 DA\nLa liste complète est dans la section « Analyses & tarifs »." },
+    { "keywords": ["horaire", "heure", "ouvert", "ferme", "vendredi", "dimanche"], "a": "Nous sommes ouverts 7 j / 7 : prélèvements de 7 h à 13 h, accueil jusqu'à 18 h." },
+    { "keywords": ["ordonnance", "sans ordonnance", "prescription"], "a": "Vous pouvez faire des analyses sans ordonnance, mais elles ne seront pas remboursées. Nous vous conseillons d'en parler à votre médecin." },
+    { "keywords": ["chifa", "cnas", "casnos", "rembours", "assurance"], "a": "La carte Chifa est acceptée et le remboursement dépend de votre couverture CNAS / CASNOS. Pensez à apporter votre ordonnance." },
+    { "keywords": ["rendez", "rdv", "reserv", "attente", "sans rendez"], "a": "Réservez en 1 minute avec le formulaire de la page, ou venez sans rendez-vous : l'attente moyenne est de 10 minutes." },
+    { "keywords": ["interpret", "normal", "explique", "grave", "maladie", "symptome", "diagnostic"], "a": "Je ne peux pas interpréter de résultats ni poser de diagnostic : seul votre médecin peut le faire. Nos biologistes peuvent vous dire si une valeur sort des normes." },
+    { "keywords": ["adresse", "trouve", "tram", "parking", "itineraire"], "a": "Nous sommes Boulevard des Lions, à Oran, accessible en tramway." }
+  ]
+}
