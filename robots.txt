@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://abdelmoulabilel.github.io/Medical-laboratory-project/sitemap.xml
